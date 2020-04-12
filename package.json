@@ -1,5 +1,5 @@
 {
-	"name": "@hyphaene/vscode-extension",
+	"name": "vscode-hyphaene",
 	"publisher": "hyphaene",
 	"displayName": "home",
 	"description": "custom view for personal purposes",
@@ -8,7 +8,7 @@
 		"url": "https://github.com/hyphaene/vscode-extension"
 	},
 	"homepage": "https://github.com/hyphaene/vscode-extension/blob/master/README.md",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"engines": {
 		"vscode": "^1.44.0"
 	},
