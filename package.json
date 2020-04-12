@@ -39,12 +39,13 @@
 		]
 	},
 	"scripts": {
-		"vscode:prepublish": "npm run compile",
+		"vscode:prepublish": "npm run compile;",
 		"compile": "tsc -p ./",
 		"commit": "git-cz",
 		"release": "standard-version",
-		"publish": "vsce publish",
+		"postrelease": "git push --follow-tags origin HEAD && npm publish",
 		"package": "vsce package",
+		"publish": "vsce publish",
 		"lint": "eslint src --ext ts",
 		"watch": "tsc -watch -p ./",
 		"pretest": "npm run compile && npm run lint",
