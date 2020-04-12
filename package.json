@@ -45,7 +45,7 @@
 		"release": "standard-version",
 		"postrelease": "git push --follow-tags origin master && npm publish",
 		"package": "vsce package",
-		"publish": "vsce publish",
+		"prepublish": "vsce publish",
 		"lint": "eslint src --ext ts",
 		"watch": "tsc -watch -p ./",
 		"pretest": "npm run compile && npm run lint",
