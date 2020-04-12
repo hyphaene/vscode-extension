@@ -43,7 +43,7 @@
 		"compile": "tsc -p ./",
 		"commit": "git-cz",
 		"release": "standard-version",
-		"postrelease": "git push --follow-tags origin HEAD && npm publish",
+		"postrelease": "git push --follow-tags origin master && npm publish",
 		"package": "vsce package",
 		"publish": "vsce publish",
 		"lint": "eslint src --ext ts",
