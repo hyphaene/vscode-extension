@@ -8,7 +8,7 @@
 		"url": "https://github.com/hyphaene/vscode-extension"
 	},
 	"homepage": "https://github.com/hyphaene/vscode-extension/blob/master/README.md",
-	"version": "0.0.11",
+	"version": "0.0.12",
 	"engines": {
 		"vscode": "^1.44.0"
 	},
@@ -43,9 +43,9 @@
 		"compile": "tsc -p ./",
 		"commit": "git-cz",
 		"release": "standard-version",
-		"postrelease": "git push --follow-tags origin master && npm publish",
+		"postrelease": "git push --follow-tags origin master",
 		"package": "vsce package",
-		"prepublish": "vsce publish",
+		"publish": "vsce publish",
 		"lint": "eslint src --ext ts",
 		"watch": "tsc -watch -p ./",
 		"pretest": "npm run compile && npm run lint",
