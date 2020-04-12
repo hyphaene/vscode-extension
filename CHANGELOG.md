@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/hyphaene/vscode-extension/compare/v0.0.4...v0.0.6) (2020-04-12)
+
+
+### Bug Fixes
+
+* package name ([06b04ec](https://github.com/hyphaene/vscode-extension/commit/06b04ecf2dc6561df0490ea9ad376aa3048e629e))
+
 ### [0.0.5](https://github.com/hyphaene/vscode-extension/compare/v0.0.4...v0.0.5) (2020-04-12)
 
 
