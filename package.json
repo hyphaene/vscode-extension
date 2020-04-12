@@ -1,5 +1,5 @@
 {
-	"name": "home",
+	"name": "@hyphaene/vscode-extension",
 	"publisher": "hyphaene",
 	"displayName": "home",
 	"description": "custom view for personal purposes",
@@ -39,7 +39,7 @@
 		]
 	},
 	"scripts": {
-		"vscode:prepublish": "npm run compile;",
+		"vscode:prepublish": "npm run compile;npm run release",
 		"compile": "tsc -p ./",
 		"commit": "git-cz",
 		"release": "standard-version",
