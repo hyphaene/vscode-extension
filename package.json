@@ -1,5 +1,5 @@
 {
-	"name": "@hyphaene/vscode-extension",
+	"name": "vscode-hyphaene",
 	"publisher": "hyphaene",
 	"displayName": "home",
 	"description": "custom view for personal purposes",
