@@ -8,7 +8,7 @@
 		"url": "https://github.com/hyphaene/vscode-extension"
 	},
 	"homepage": "https://github.com/hyphaene/vscode-extension/blob/master/README.md",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"engines": {
 		"vscode": "^1.44.0"
 	},
