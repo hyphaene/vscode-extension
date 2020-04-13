@@ -10,7 +10,7 @@ const PathPatterns = [
 ];
 
 const [jsOnlySnippets, tsOnlySnippets, sharedSnippets] = PathPatterns.map((pattern) =>
-	glob.sync(pattern).map((file) => require(`.${file}`))
+	glob.sync(pattern).map((file) => require(`../.${file}`))
 );
 
 const jsSnippets = jsOnlySnippets.concat(sharedSnippets);

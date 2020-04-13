@@ -42,6 +42,7 @@
 		"vscode:prepublish": "npm run snippets:create;npm run compile",
 		"compile": "tsc -p ./",
 		"commit": "git-cz",
+		"prerelease": "npm run compile",
 		"release": "standard-version",
 		"postrelease": "git push --follow-tags origin master",
 		"package": "vsce package",
@@ -50,7 +51,7 @@
 		"watch": "tsc -watch -p ./",
 		"pretest": "npm run compile && npm run lint",
 		"test": "node ./out/test/runTest.js",
-		"snippets:create": "ts-node scripts/createSnippets.ts"
+		"snippets:create": "ts-node src/scripts/createSnippets.ts"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^8.2.0",
