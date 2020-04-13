@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import glob from 'glob';
+import * as glob from 'glob';
 import { writeFileSync } from 'fs';
 
 const PathPatterns = [
