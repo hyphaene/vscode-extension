@@ -1,0 +1,7 @@
+{
+	"this props": {
+		"prefix": "pps",
+		"body": ["this.props"],
+		"description": "shortcut for this props"
+	}
+}

@@ -1,0 +1,207 @@
+{
+    "add PropTypes.shape({}).isRequired": {
+        "prefix": "pptx",
+        "body": "PropTypes.shape({}).isRequired",
+        "description": "add PropTypes.shape({}).isRequired"
+    },
+    "add PropTypes.string.isRequired": {
+        "prefix": "ppts",
+        "body": "PropTypes.string.isRequired",
+        "description": "add PropTypes.string.isRequired"
+    },
+    "add PropTypes.number.isRequired": {
+        "prefix": "pptn",
+        "body": "PropTypes.number.isRequired",
+        "description": "add PropTypes.number.isRequired"
+    },
+    "add PropTypes.bool.isRequired": {
+        "prefix": "pptb",
+        "body": "PropTypes.bool.isRequired",
+        "description": "add PropTypes.bool.isRequired"
+    },
+    "add PropTypes.func.isRequired": {
+        "prefix": "pptf",
+        "body": "PropTypes.func.isRequired",
+        "description": "add PropTypes.func.isRequired"
+    },
+    "add PropTypes.any.isRequired": {
+        "prefix": "ppta",
+        "body": "PropTypes.any.isRequired",
+        "description": "add PropTypes.any.isRequired"
+    },
+    "add arrayOf(shape) ": {
+        "prefix": "pptao",
+        "body": [
+            "options: PropTypes.arrayOf(PropTypes.shape({})).isRequired, "
+        ],
+        "description": "add proptypes for array of objects"
+    },
+    "component boilerplate": {
+        "prefix": "compo",
+        "body": [
+            "import React, { Component } from 'react';",
+            "import PropTypes from 'prop-types';",
+            "",
+            "export default class ExampleClass extends Component {",
+            "\tconstructor(){",
+            "\t\tsuper();",
+            "\t}",
+            "",
+            "\tsomeMethod() {",
+            "\t\treturn this",
+            "\t}",
+            "",
+            "\trender() {",
+            "\t\tconst { blabla } = this.props;",
+            "\t\treturn(",
+            "\t\t\t<div>",
+            "\t\t\t\tbliii",
+            "\t\t\t</div>",
+            "\t\t)",
+            "\t}",
+            "}",
+            ""
+        ],
+        "description": "add a boilerplate component"
+    },
+    "functional component boilerplate": {
+        "prefix": "compoo",
+        "body": [
+            "import React, { useState } from 'react';",
+            "import PropTypes from 'prop-types';",
+            "",
+            "export const Example = ({ blabla }) => {",
+            "\tconst [data,useData] = useState('')",
+            "\t\treturn ( <div>",
+            "\t\t\tbliii",
+            "\t\t</div>",
+            "\t)",
+            "}",
+            "",
+            "Example.propTypes = {",
+            "\tblabla: PropTypes.string,",
+            "}; ",
+            "",
+            "export default Example;"
+        ],
+        "description": "add a boilerplate component"
+    },
+    "redux boilerplate": {
+        "prefix": "redux",
+        "body": [
+            "import { connect } from 'react-redux';",
+            "import { bindActionCreators } from 'redux';",
+            "export const mapStateToProps = state => ({",
+            " \t// example: getSuperSelector(state)",
+            "});",
+            "",
+            "export const mapDispatchToProps = dispatch => bindActionCreators({",
+            "\t //someActions,",
+            "}, dispatch);",
+            "",
+            "export default connect(mapStateToProps, mapDispatchToProps)(ExampleClass);"
+        ],
+        "description": "add a boilerplate component"
+    },
+    "test boilerplate": {
+        "prefix": "tpt",
+        "body": [
+            "describe('TEST', () => {",
+            "\tit('should', () => {",
+            "\t\texpect(true).toBe(true);",
+            "\t});",
+            "});"
+        ],
+        "description": "add a test boilerplate"
+    },
+    "jest mock component": {
+        "prefix": "cpmk",
+        "body": [
+            "jest.mock('path', ()=> 'component')"
+        ],
+        "description": "jest mock component"
+    },
+    "this props": {
+        "prefix": "pps",
+        "body": [
+            "this.props"
+        ],
+        "description": "shortcut for this props"
+    },
+    "Print to console": {
+        "scope": "javascript,typescript",
+        "prefix": "loog",
+        "body": [
+            "console.log({ ${1:data} });"
+        ],
+        "description": "Log output to console"
+    },
+    "add #!/usr/bin/env node": {
+        "prefix": "she",
+        "body": [
+            "#!/usr/bin/env node"
+        ],
+        "description": "add #!/usr/bin/env node"
+    },
+    "Print to console with arg and decorator": {
+        "prefix": "logg",
+        "body": [
+            "console.log('========');",
+            "console.log({  })",
+            "console.log('========');",
+            "$2"
+        ],
+        "description": "Log output to console with decorator"
+    },
+    "export default": {
+        "prefix": "edd",
+        "body": [
+            "export default "
+        ],
+        "description": "export default"
+    },
+    "export const": {
+        "prefix": "ecc",
+        "body": [
+            "export const "
+        ],
+        "description": "export const"
+    },
+    "arrow function": {
+        "prefix": "aro",
+        "body": [
+            "() => {}"
+        ],
+        "description": "simple arrow function"
+    },
+    "const assignment": {
+        "prefix": "co=",
+        "body": "const ${1:name} = ${2:value};",
+        "description": "const assignment"
+    },
+    "destructuring const assignment": {
+        "prefix": "dco=",
+        "body": "const {${1:name}} = ${2:value};",
+        "description": "destructuring const assignment"
+    },
+    "ternary operator": {
+        "prefix": "ter",
+        "body": "${1:condition} ? ${2:expression} : ${3:expression};",
+        "description": "ternary operator"
+    },
+    "reduce": {
+        "prefix": "reduce",
+        "body": "${1}.reduce((${2:previous}, ${3:current}) => {\n\t${0}\n}${4:, initial});",
+        "description": "reduce"
+    },
+    "filter": {
+        "prefix": "filter",
+        "body": "${1}.filter(${2:item} => {\n\t${0}\n});",
+        "description": "filter"
+    },
+    "find": {
+        "prefix": "find",
+        "body": "${1}.find(${2:item} => {\n\t${0}\n});",
+        "description": "find"
+    }
+}

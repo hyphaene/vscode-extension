@@ -1,0 +1,16 @@
+{
+	"Interface": {
+		"prefix": "int",
+		"body": ["interface $1 {", " property: string;", "};"],
+		"description": "this will create an interface"
+	},
+	"Enum": {
+		"prefix": "enum",
+		"body": [
+			"enum CharacterClass { Warrior, Mage, Healer }",
+			"let type: CharacterClass;",
+			"type = CharacterClass.Warrior;"
+		],
+		"description": "this will create an Tuple"
+	}
+}

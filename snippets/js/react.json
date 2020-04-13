@@ -1,0 +1,88 @@
+{
+	"add PropTypes.shape({}).isRequired": {
+		"prefix": "pptx",
+		"body": "PropTypes.shape({}).isRequired",
+		"description": "add PropTypes.shape({}).isRequired"
+	},
+	"add PropTypes.string.isRequired": {
+		"prefix": "ppts",
+		"body": "PropTypes.string.isRequired",
+		"description": "add PropTypes.string.isRequired"
+	},
+	"add PropTypes.number.isRequired": {
+		"prefix": "pptn",
+		"body": "PropTypes.number.isRequired",
+		"description": "add PropTypes.number.isRequired"
+	},
+	"add PropTypes.bool.isRequired": {
+		"prefix": "pptb",
+		"body": "PropTypes.bool.isRequired",
+		"description": "add PropTypes.bool.isRequired"
+	},
+	"add PropTypes.func.isRequired": {
+		"prefix": "pptf",
+		"body": "PropTypes.func.isRequired",
+		"description": "add PropTypes.func.isRequired"
+	},
+	"add PropTypes.any.isRequired": {
+		"prefix": "ppta",
+		"body": "PropTypes.any.isRequired",
+		"description": "add PropTypes.any.isRequired"
+	},
+	"add arrayOf(shape) ": {
+		"prefix": "pptao",
+		"body": ["options: PropTypes.arrayOf(PropTypes.shape({})).isRequired, "],
+		"description": "add proptypes for array of objects"
+	},
+	"component boilerplate": {
+		"prefix": "compo",
+		"body": [
+			"import React, { Component } from 'react';",
+			"import PropTypes from 'prop-types';",
+
+			"",
+			"export default class ExampleClass extends Component {",
+			"\tconstructor(){",
+			"\t\tsuper();",
+			"\t}",
+			"",
+			"\tsomeMethod() {",
+			"\t\treturn this",
+			"\t}",
+			"",
+			"\trender() {",
+			"\t\tconst { blabla } = this.props;",
+			"\t\treturn(",
+			"\t\t\t<div>",
+			"\t\t\t\tbliii",
+			"\t\t\t</div>",
+			"\t\t)",
+			"\t}",
+			"}",
+			""
+		],
+		"description": "add a boilerplate component"
+	},
+	"functional component boilerplate": {
+		"prefix": "compoo",
+		"body": [
+			"import React, { useState } from 'react';",
+			"import PropTypes from 'prop-types';",
+			"",
+			"export const Example = ({ blabla }) => {",
+			"\tconst [data,useData] = useState('')",
+			"\t\treturn ( <div>",
+			"\t\t\tbliii",
+			"\t\t</div>",
+			"\t)",
+			"}",
+			"",
+			"Example.propTypes = {",
+			"\tblabla: PropTypes.string,",
+			"}; ",
+			"",
+			"export default Example;"
+		],
+		"description": "add a boilerplate component"
+	}
+}

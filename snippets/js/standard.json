@@ -1,0 +1,18 @@
+{
+	"test boilerplate": {
+		"prefix": "tpt",
+		"body": [
+			"describe('TEST', () => {",
+			"\tit('should', () => {",
+			"\t\texpect(true).toBe(true);",
+			"\t});",
+			"});"
+		],
+		"description": "add a test boilerplate"
+	},
+	"jest mock component": {
+		"prefix": "cpmk",
+		"body": ["jest.mock('path', ()=> 'component')"],
+		"description": "jest mock component"
+	}
+}
