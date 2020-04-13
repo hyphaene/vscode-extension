@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.18](https://github.com/hyphaene/vscode-extension/compare/v0.0.17...v0.0.18) (2020-04-13)
+
+
+### Bug Fixes
+
+* **files:** move scripts in src ([c4897b7](https://github.com/hyphaene/vscode-extension/commit/c4897b70e58959ffd60a71be606c1448fa115035))
+* **tests:** replace import * as by default ([4a4c9c1](https://github.com/hyphaene/vscode-extension/commit/4a4c9c1d73e2816606fea62933f294e4e7b2a4ca))
+
 ### [0.0.17](https://github.com/hyphaene/vscode-extension/compare/v0.0.16...v0.0.17) (2020-04-13)
 
 
