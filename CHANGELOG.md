@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.23](https://github.com/hyphaene/vscode-extension/compare/v0.0.22...v0.0.23) (2020-04-14)
+
+
+### Bug Fixes
+
+* remove keybindings keyboard dependants ([b8ea874](https://github.com/hyphaene/vscode-extension/commit/b8ea874bb8fdece1286a693b9b08c7596e476565))
+
 ### [0.0.22](https://github.com/hyphaene/vscode-extension/compare/v0.0.21...v0.0.22) (2020-04-14)
 
 
