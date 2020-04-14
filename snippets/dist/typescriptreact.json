@@ -1,0 +1,122 @@
+{
+    "Export Default React Pure Function Component": {
+        "prefix": "compo",
+        "body": [
+            "import React from 'react';",
+            "",
+            "export interface I${1:App}Props {",
+            "}",
+            "",
+            "export default function ${1:} (props: I${1:}Props) {",
+            "  return (",
+            "    <div>",
+            "      ${0}",
+            "    </div>",
+            "  );",
+            "}",
+            ""
+        ],
+        "description": "Create a default-exported React Pure Function Component."
+    },
+    "Interface": {
+        "prefix": "int",
+        "body": [
+            "interface $1 {",
+            " property: string;",
+            "};"
+        ],
+        "description": "this will create an interface"
+    },
+    "Enum": {
+        "prefix": "enum",
+        "body": [
+            "enum CharacterClass { Warrior, Mage, Healer }",
+            "let type: CharacterClass;",
+            "type = CharacterClass.Warrior;"
+        ],
+        "description": "this will create an Tuple"
+    },
+    "this props": {
+        "prefix": "pps",
+        "body": [
+            "this.props"
+        ],
+        "description": "shortcut for this props"
+    },
+    "Print to console": {
+        "scope": "javascript,typescript",
+        "prefix": "loog",
+        "body": [
+            "console.log({ ${1:data} });"
+        ],
+        "description": "Log output to console"
+    },
+    "add #!/usr/bin/env node": {
+        "prefix": "she",
+        "body": [
+            "#!/usr/bin/env node"
+        ],
+        "description": "add #!/usr/bin/env node"
+    },
+    "Print to console with arg and decorator": {
+        "prefix": "logg",
+        "body": [
+            "console.log('========');",
+            "console.log({  })",
+            "console.log('========');",
+            "$2"
+        ],
+        "description": "Log output to console with decorator"
+    },
+    "export default": {
+        "prefix": "edd",
+        "body": [
+            "export default "
+        ],
+        "description": "export default"
+    },
+    "export const": {
+        "prefix": "ecc",
+        "body": [
+            "export const "
+        ],
+        "description": "export const"
+    },
+    "arrow function": {
+        "prefix": "aro",
+        "body": [
+            "() => {}"
+        ],
+        "description": "simple arrow function"
+    },
+    "const assignment": {
+        "prefix": "co=",
+        "body": "const ${1:name} = ${2:value};",
+        "description": "const assignment"
+    },
+    "destructuring const assignment": {
+        "prefix": "dco=",
+        "body": "const {${1:name}} = ${2:value};",
+        "description": "destructuring const assignment"
+    },
+    "ternary operator": {
+        "prefix": "ter",
+        "body": "${1:condition} ? ${2:expression} : ${3:expression};",
+        "description": "ternary operator"
+    },
+    "reduce": {
+        "prefix": "reduce",
+        "body": "${1}.reduce((${2:previous}, ${3:current}) => {\n\t${0}\n}${4:, initial});",
+        "description": "reduce"
+    },
+    "filter": {
+        "prefix": "filter",
+        "body": "${1}.filter(${2:item} => {\n\t${0}\n});",
+        "description": "filter"
+    },
+    "find": {
+        "prefix": "find",
+        "body": "${1}.find(${2:item} => {\n\t${0}\n});",
+        "description": "find"
+    }
+}

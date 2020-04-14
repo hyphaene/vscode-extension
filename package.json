@@ -52,10 +52,10 @@
 		]
 	},
 	"scripts": {
-		"vscode:prepublish": ";npm run compile",
+		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
 		"commit": "git-cz",
-		"prerelease": "npm run snippets:create;npm run compile",
+		"prerelease": "npm run snippets:create;git add --all; npm run compile",
 		"release": "standard-version",
 		"postrelease": "git push --follow-tags origin master",
 		"package": "vsce package",
