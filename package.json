@@ -145,7 +145,7 @@
 			},
 			{
 				"key": "ctrl+p",
-				"command": "-workbench.action.quickOpen"
+				"command": "workbench.action.quickOpen"
 			},
 			{
 				"key": "ctrl+shift+l",
@@ -155,10 +155,6 @@
 			{
 				"key": "ctrl+alt+q",
 				"command": "workbench.action.quit"
-			},
-			{
-				"key": "ctrl+q",
-				"command": "-workbench.action.quit"
 			},
 			{
 				"key": "ctrl+v",
@@ -220,11 +216,6 @@
 				"when": "inSettingsEditor"
 			},
 			{
-				"key": "ctrl+f",
-				"command": "-cursorRight",
-				"when": "textInputFocus"
-			},
-			{
 				"key": "ctrl+alt+k",
 				"command": "workbench.action.openGlobalKeybindings"
 			},
@@ -243,7 +234,7 @@
 			},
 			{
 				"key": "ctrl+k e",
-				"command": "-workbench.files.action.focusOpenEditorsView",
+				"command": "workbench.files.action.focusOpenEditorsView",
 				"when": "workbench.explorer.openEditorsView.active"
 			},
 			{
@@ -252,7 +243,7 @@
 			},
 			{
 				"key": "ctrl+alt+g",
-				"command": "scm:repository:1668487742.focus"
+				"command": "workbench.view.scm"
 			}
 		]
 	},
