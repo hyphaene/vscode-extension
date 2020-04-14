@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.24](https://github.com/hyphaene/vscode-extension/compare/v0.0.23...v0.0.24) (2020-04-14)
+
+
+### Features
+
+* add reworked keybindings for layout independant ones ([4189b29](https://github.com/hyphaene/vscode-extension/commit/4189b29b51c5b702ef16b414148f167dd1d1f9e8))
+
 ### [0.0.23](https://github.com/hyphaene/vscode-extension/compare/v0.0.22...v0.0.23) (2020-04-14)
 
 
