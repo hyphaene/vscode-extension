@@ -52,24 +52,6 @@
 		],
 		"keybindings": [
 			{
-				"key": "ctrl+alt+m",
-				"command": "workbench.action.terminal.focus",
-				"when": "!terminalFocus"
-			},
-			{
-				"key": "ctrl+alt+j",
-				"command": "workbench.action.terminal.focusNext"
-			},
-			{
-				"key": "ctrl+alt+[Backslash]",
-				"command": "workbench.action.terminal.toggleTerminal"
-			},
-			{
-				"key": "ctrl+[Period]",
-				"command": "editor.action.commentLine",
-				"when": "editorTextFocus && !editorReadonly"
-			},
-			{
 				"key": "ctrl+alt+n",
 				"command": "workbench.action.terminal.new"
 			},
@@ -102,10 +84,6 @@
 			{
 				"key": "alt+right",
 				"command": "workbench.action.moveEditorToNextGroup"
-			},
-			{
-				"key": "ctrl+alt+[Quote]",
-				"command": "workbench.files.action.focusFilesExplorer"
 			},
 			{
 				"key": "ctrl+alt+u",
@@ -222,24 +200,6 @@
 			{
 				"key": "ctrl+k ctrl+s",
 				"command": "workbench.action.openGlobalKeybindingsFile"
-			},
-			{
-				"key": "ctrl+alt+[BracketRight]",
-				"command": "workbench.action.focusActiveEditorGroup"
-			},
-			{
-				"key": "ctrl+alt+[BracketLeft]",
-				"command": "workbench.files.action.focusOpenEditorsView",
-				"when": "workbench.explorer.openEditorsView.active"
-			},
-			{
-				"key": "ctrl+k e",
-				"command": "workbench.files.action.focusOpenEditorsView",
-				"when": "workbench.explorer.openEditorsView.active"
-			},
-			{
-				"key": "ctrl+alt+[Slash]",
-				"command": "npm.focus"
 			},
 			{
 				"key": "ctrl+alt+g",
