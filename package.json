@@ -3,9 +3,14 @@
 	"publisher": "hyphaene",
 	"displayName": "home",
 	"description": "custom view for personal purposes",
+	"icon": "icon.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/hyphaene/vscode-extension"
+	},
+	"bugs": {
+		"url": "https://github.com/hyphaene/vscode-extension/issues",
+		"email": "maximilien.garenne@gmail.com"
 	},
 	"homepage": "https://github.com/hyphaene/vscode-extension/blob/master/README.md",
 	"version": "0.0.18",
