@@ -35,6 +35,14 @@
 			{
 				"language": "typescript",
 				"path": "./snippets/dist/typescript.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/dist/javascriptreact.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/dist/typescriptreact.json"
 			}
 		]
 	},
