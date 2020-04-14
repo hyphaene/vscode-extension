@@ -13,7 +13,7 @@
 		"email": "maximilien.garenne@gmail.com"
 	},
 	"homepage": "https://github.com/hyphaene/vscode-extension/blob/master/README.md",
-	"version": "0.0.18",
+	"version": "0.0.19",
 	"engines": {
 		"vscode": "^1.44.0"
 	},
@@ -52,10 +52,10 @@
 		]
 	},
 	"scripts": {
-		"vscode:prepublish": "npm run snippets:create;npm run compile",
+		"vscode:prepublish": ";npm run compile",
 		"compile": "tsc -p ./",
 		"commit": "git-cz",
-		"prerelease": "npm run compile",
+		"prerelease": "npm run snippets:create;npm run compile",
 		"release": "standard-version",
 		"postrelease": "git push --follow-tags origin master",
 		"package": "vsce package",

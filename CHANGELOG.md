@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.19](https://github.com/hyphaene/vscode-extension/compare/v0.0.18...v0.0.19) (2020-04-14)
+
+
+### Features
+
+* **icon:** add to manifest ([a8a8cfe](https://github.com/hyphaene/vscode-extension/commit/a8a8cfefeda415e825b3d0928fd32674e78dcf9e))
+* **snippets:** add typescriptreact and javacriptreact as outputs ([7c1583c](https://github.com/hyphaene/vscode-extension/commit/7c1583c1b339595a7a61fb0622f3fb34d52c0b12))
+
 ### [0.0.18](https://github.com/hyphaene/vscode-extension/compare/v0.0.17...v0.0.18) (2020-04-13)
 
 
