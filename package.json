@@ -204,6 +204,36 @@
 			{
 				"key": "ctrl+alt+g",
 				"command": "workbench.view.scm"
+			},
+			{
+				"key": "ctrl+alt+o",
+				"command": "workbench.action.terminal.toggleTerminal"
+			},
+			{
+				"key": "ctrl+/",
+				"command": "editor.action.commentLine",
+				"when": "editorTextFocus && !editorReadonly"
+			},
+			{
+				"key": "ctrl+alt+`",
+				"command": "workbench.files.action.focusFilesExplorer"
+			},
+			{
+				"key": "ctrl+alt+;",
+				"command": "workbench.action.focusActiveEditorGroup"
+			},
+			{
+				"key": "ctrl+alt+[",
+				"command": "workbench.files.action.focusOpenEditorsView",
+				"when": "workbench.explorer.openEditorsView.active"
+			},
+			{
+				"key": "ctrl+alt+oem_8",
+				"command": "npm.focus"
+			},
+			{
+				"key": "ctrl+alt+m",
+				"command": "workbench.panel.terminal.focus"
 			}
 		]
 	},
