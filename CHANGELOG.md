@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.25](https://github.com/hyphaene/vscode-extension/compare/v0.0.24...v0.0.25) (2020-04-19)
+
+
+### Features
+
+* **keybinding:** add focus next terminal ([21aec2c](https://github.com/hyphaene/vscode-extension/commit/21aec2cbd42d1e1927ed8db49881161a6b1dcae0))
+
 ### [0.0.24](https://github.com/hyphaene/vscode-extension/compare/v0.0.23...v0.0.24) (2020-04-14)
 
 
