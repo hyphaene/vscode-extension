@@ -234,6 +234,10 @@
 			{
 				"key": "ctrl+alt+m",
 				"command": "workbench.panel.terminal.focus"
+			},
+			{
+				"key": "ctrl+alt+j",
+				"command": "workbench.action.terminal.focusNext"
 			}
 		]
 	},
