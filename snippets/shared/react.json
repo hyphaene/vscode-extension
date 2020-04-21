@@ -3,5 +3,10 @@
 		"prefix": "pps",
 		"body": ["this.props"],
 		"description": "shortcut for this props"
+	},
+	"import React": {
+		"prefix": "imr",
+		"body": ["import React from 'react';"],
+		"description": "import React"
 	}
 }
