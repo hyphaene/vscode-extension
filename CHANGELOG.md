@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.26](https://github.com/hyphaene/vscode-extension/compare/v0.0.25...v0.0.26) (2020-04-21)
+
+
+### Features
+
+* **snippets:** add imr ([4432367](https://github.com/hyphaene/vscode-extension/commit/44323675b61bc1c2c8e9d2da7c3ca48bdd6289ae))
+
 ### [0.0.25](https://github.com/hyphaene/vscode-extension/compare/v0.0.24...v0.0.25) (2020-04-19)
 
 
