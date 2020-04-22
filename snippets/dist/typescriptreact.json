@@ -43,6 +43,13 @@
         ],
         "description": "shortcut for this props"
     },
+    "import React": {
+        "prefix": "imr",
+        "body": [
+            "import React from 'react';"
+        ],
+        "description": "import React"
+    },
     "Print to console": {
         "scope": "javascript,typescript",
         "prefix": "loog",

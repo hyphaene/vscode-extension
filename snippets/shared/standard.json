@@ -12,7 +12,11 @@
 	},
 	"Print to console with arg and decorator": {
 		"prefix": "logg",
-		"body": ["console.log('========');", "console.log({  })", "console.log('========');", "$2"],
+		"body": [
+			"console.log('========');",
+			"console.log({${1:data}  })",
+			"console.log('========');"
+		],
 		"description": "Log output to console with decorator"
 	},
 	"export default": {
@@ -29,6 +33,11 @@
 	"arrow function": {
 		"prefix": "aro",
 		"body": ["() => {}"],
+		"description": "simple arrow function"
+	},
+	"import file ": {
+		"prefix": "imp",
+		"body": ["import ${1:data} from './${1:data}';"],
 		"description": "simple arrow function"
 	},
 	"const assignment": {

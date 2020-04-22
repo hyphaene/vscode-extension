@@ -25,7 +25,7 @@ const filesToCreate = [
 	{ snippetsPath: jsxSnippetsPath, language: 'javascriptreact' },
 	{ snippetsPath: tsxSnippetsPath, language: 'typescriptreact' },
 	{ snippetsPath: jsSnippetsPath, language: 'javascript' },
-	{ snippetsPath: tsSnippetsPath, language: 'typecript' },
+	{ snippetsPath: tsSnippetsPath, language: 'typescript' },
 ].map(({ snippetsPath, language }) => {
 	return {
 		snippets: snippetsPath.map((path) => require(`../.${path}`)),
