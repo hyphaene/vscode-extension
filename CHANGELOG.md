@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.27](https://github.com/hyphaene/vscode-extension/compare/v0.0.26...v0.0.27) (2020-04-22)
+
+
+### Bug Fixes
+
+* **snippet:** fix ts declaration file ([01b41dc](https://github.com/hyphaene/vscode-extension/commit/01b41dc3817cbb8ff675597cc7f1f0a3c94b5cbe))
+
 ### [0.0.26](https://github.com/hyphaene/vscode-extension/compare/v0.0.25...v0.0.26) (2020-04-21)
 
 
