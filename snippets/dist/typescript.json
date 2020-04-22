@@ -67,7 +67,7 @@
         "body": [
             "import ${1:data} from './${1:data}';"
         ],
-        "description": "simple arrow function"
+        "description": "import local file"
     },
     "const assignment": {
         "prefix": "co=",
