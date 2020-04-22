@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.28](https://github.com/hyphaene/vscode-extension/compare/v0.0.27...v0.0.28) (2020-04-22)
+
+
+### Bug Fixes
+
+* **snippet:** change imp desc ([cf2cba5](https://github.com/hyphaene/vscode-extension/commit/cf2cba56dd2afb6055b7b0e52a681785b504ac4d))
+
 ### [0.0.27](https://github.com/hyphaene/vscode-extension/compare/v0.0.26...v0.0.27) (2020-04-22)
 
 
