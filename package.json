@@ -13,7 +13,7 @@
 		"email": "maximilien.garenne@gmail.com"
 	},
 	"homepage": "https://github.com/hyphaene/vscode-extension/blob/master/README.md",
-	"version": "0.0.28",
+	"version": "0.0.29",
 	"engines": {
 		"vscode": "^1.44.0"
 	},

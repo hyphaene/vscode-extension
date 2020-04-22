@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.29](https://github.com/hyphaene/vscode-extension/compare/v0.0.28...v0.0.29) (2020-04-22)
+
+
+### Features
+
+* **snippets:** add import module snippet ([4457d28](https://github.com/hyphaene/vscode-extension/commit/4457d28a133a3740040bc01be66d8090d3c0e33f))
+
 ### [0.0.28](https://github.com/hyphaene/vscode-extension/compare/v0.0.27...v0.0.28) (2020-04-22)
 
 
