@@ -102,6 +102,13 @@
         ],
         "description": "import local file"
     },
+    "import module ": {
+        "prefix": "impm",
+        "body": [
+            "import ${1:data} from '${1:data}';"
+        ],
+        "description": "import module"
+    },
     "const assignment": {
         "prefix": "co=",
         "body": "const ${1:name} = ${2:value};",
